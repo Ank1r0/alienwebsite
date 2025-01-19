@@ -1,0 +1,35 @@
+.NavLink {
+    position: relative; /* Ensures the pseudo-element is positioned correctly */
+    color: #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color 0.1s ease-in-out; /* Smooth text color transition */
+    text-decoration: none; /* Removes underlines */
+    z-index: 1; /* Ensures it is above the image */
+}
+
+.NavLink::before {
+    content: ''; /* Empty pseudo-element */
+    position: absolute;
+    top: 50%; /* Centers the effect vertically by default */
+    left: 0;
+    width: 0; /* Starts with zero width */
+    height: 0%; /* Adjust the height to 50% of the element (or customize it) */
+    transform: translateY(-50%); /* Vertically centers the pseudo-element */
+    background-color: #ffffff; /* Yellow color for the effect */
+    z-index: -1; /* Places the pseudo-element behind the text */
+    transition: width 0.1s ease-in-out, height 0.1s ease-in-out; /* Smooth animations */
+}
+
+.NavLink:hover::before {
+    width: 100%; /* Expands to cover the full width on hover */
+    height: 30%; /* Expands to cover the full width on hover */
+}
+
+.NavLink:hover .mainText {
+    color: black; /* Changes the color of the <p> element inside .NavLink */
+}
+
+.NavLink:hover {
+    color: white; /* Changes the text color to white on hover */
+}

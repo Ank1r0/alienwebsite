@@ -16,32 +16,22 @@ code {
   font-family: 'Jersey 25'; /* Fallback to a default font if Jersey 25 fails */
   font-size: 34px; /* Adjust as needed */
   color: white; /* Optional: Set your preferred color */
-
   text-shadow:
     1px 1px 0px black,   /* Right and Down Shadow */
     -1px -1px 0px black, /* Left and Up Shadow */
     1px -1px 0px black,  /* Right and Up Shadow */
     -1px 1px 0px black,
     -2px 1px 0px yellow;
+  z-index: 999;
 }
 
 #main{
   background-image: url("img/firstpage_monster.png");
-  background-size: cover; /* This will resize the image to cover the container */
-  background-position: center; /* This will center the image within the container */
-  background-repeat: no-repeat; /* This ensures the image doesn't repeat */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   width: 100%; /* Full width of the container */
   height: 500px; /* Set the height (can be adjusted as needed) */
-
 }
 
-#main::after {
-  content: ''; /* Empty content for the pseudo-element */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 40% opacity (darker effect) */
-  z-index: 1; /* Ensure overlay is on top of the background image */
-}
+

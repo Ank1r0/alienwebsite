@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-scroll';
- 
+import "../components/NavBar.css"
+
 function NavBar() {
   return (
     <div
@@ -30,19 +31,19 @@ function NavBar() {
     }}
   >
     {/* Left-aligned SHARE_WEBSITE */}
-    <Link to="main" className="logo">
+    <Link to="main" className="NavLink">
       <p className="mainText">SHARE_WEBSITE</p>
     </Link>
 
     {/* Right-aligned Links */}
-    <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '35px', gap:'42%'}}>
-      <Link to="main" className="logo">
+    <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '43px', gap:'42%'}}>
+      <Link to="main" className="NavLink">
         <p className="mainText">HOME</p>
       </Link>
-      <Link to="main" className="logo">
+      <Link to="main" className="NavLink">
         <p className="mainText">SKILLS</p>
       </Link>
-      <Link to="main" className="logo">
+      <Link to="main" className="NavLink">
         <p className="mainText">PROJECTS</p>
       </Link>
     </div>
