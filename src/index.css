@@ -34,4 +34,15 @@ code {
   height: 500px; /* Set the height (can be adjusted as needed) */
 }
 
+#biography{
+  background-image: url("img/biographyBackground.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: black; 
+  width: 100%; /* Full width of the container */
+  height: 1000px; /* Set the height (can be adjusted as needed) */
+}
+
+
 

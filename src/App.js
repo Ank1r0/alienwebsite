@@ -9,14 +9,10 @@ function App() {
     
     <div>
         <Header/>
-        <div className="App" style={{
-          width: '1920px',
-          //height: '7000px',
-          backgroundColor: '#f0f0f0' // Light gray background for visibility
-          }}>
+        
         <Biography/>
 
-        </div>
+        
     </div>
   );
 }

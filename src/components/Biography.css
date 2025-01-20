@@ -1,0 +1,12 @@
+.biographyText {
+    font-family: 'Jersey 25'; /* Fallback to a default font if Jersey 25 fails */
+    font-size: 34px; /* Adjust as needed */
+    color: white; /* Optional: Set your preferred color */
+    text-shadow:
+      1px 1px 0px black,   /* Right and Down Shadow */
+      -1px -1px 0px black, /* Left and Up Shadow */
+      1px -1px 0px black,  /* Right and Up Shadow */
+      -1px 1px 0px black,
+      -2px 1px 0px yellow;
+    z-index: 999;
+  }
