@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll';
+//import {Link} from 'react';
 import "../components/NavBar.css"
 
 function NavBar() {
@@ -31,8 +32,8 @@ function NavBar() {
     }}
   >
     {/* Left-aligned SHARE_WEBSITE */}
-    <Link to="main" className="NavLink">
-      <p className="mainText">SHARE_WEBSITE</p>
+    <Link to="https://www.linkedin.com/in/anna-pertsova-2b3bb5195/" className="NavLink" target="_blank">
+      <p className="mainText">LINKEDIN</p>
     </Link>
 
     {/* Right-aligned Links */}
@@ -40,9 +41,15 @@ function NavBar() {
       <Link to="main" className="NavLink">
         <p className="mainText">HOME</p>
       </Link>
+
+      <Link to="biography" className="NavLink">
+        <p className="mainText">BIOGRAPHY</p>
+      </Link>
+
       <Link to="main" className="NavLink">
         <p className="mainText">SKILLS</p>
       </Link>
+
       <Link to="biography" className="NavLink">
         <p className="mainText">PROJECTS</p>
       </Link>

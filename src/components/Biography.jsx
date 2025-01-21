@@ -15,11 +15,13 @@ function Biography() {
               // Full viewport height
       textAlign: 'right',}}>
         <div style={{
-          maxWidth: '1000px', // Limits the width of the text field
+          maxWidth: '960px', // Limits the width of the text field
           padding: '20px', // Adds some padding around the text
           overflow: 'hidden', // Ensures content doesn't overflow the container
           textAlign: 'justify', // Justifies the text for better readability
-          wordWrap: 'break-word', // Ensures long words break to fit within the container
+          wordWrap: 'break-word',
+          marginRight: '330px' // Ensures long words break to fit within the container
+          
         }}>
           <h2 className='biographyText' style={{fontSize: '48px', }}>Greetings, Earthlings!</h2>
           <p className='biographyText' style={{fontSize: '32px', lineHeight: "1.9", marginTop: '0px'}}>

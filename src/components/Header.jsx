@@ -33,14 +33,15 @@ function Header() {
                 top: '50%', // Adjust the top position as needed
                 transform: 'translate(-50%, -50%)', // Centers the image at its location
                 zIndex: -2, // Places the image behind the text
-                width: '400px', // Set the width to 200px
+                width: '300px', // Set the width to 200px
                 height: 'auto',
-                left: '60px'
+                left: '70px'
               }}
             />
             <p className="mainText" style={{ position: 'relative'}}>CONTACTS</p>
           </Link>
         </div>
+        
     </div>
   )
 }
