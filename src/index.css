@@ -44,5 +44,15 @@ code {
   height: 1000px; /* Set the height (can be adjusted as needed) */
 }
 
+#skills{
+  background-image: url("img/skillsBack.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: black; 
+  width: 100%; /* Full width of the container */
+  height: 1500px; /* Set the height (can be adjusted as needed) */
+}
+
 
 
