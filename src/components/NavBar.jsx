@@ -46,7 +46,7 @@ function NavBar() {
         <p className="mainText">BIOGRAPHY</p>
       </Link>
 
-      <Link to="main" className="NavLink">
+      <Link to="skills" className="NavLink">
         <p className="mainText">SKILLS</p>
       </Link>
 

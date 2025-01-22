@@ -15,6 +15,7 @@ function App() {
         <Biography/>
         <Divider/>
         <Skills/>
+        <Divider/>
     </div>
   );
 }
