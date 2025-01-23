@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Biography from './components/Biography';
 import Divider from './components/Divider';
 import Skills from './components/Skills';
-
+import Projects from './components/Projects';
 function App() {
   return (
     
@@ -15,6 +15,8 @@ function App() {
         <Biography/>
         <Divider/>
         <Skills/>
+        <Divider/>
+        <Projects/>
         <Divider/>
     </div>
   );
