@@ -6,6 +6,7 @@ import Biography from './components/Biography';
 import Divider from './components/Divider';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import TheEnd from './components/TheEnd';
 function App() {
   return (
     
@@ -17,7 +18,7 @@ function App() {
         <Skills/>
         <Divider/>
         <Projects/>
-        <Divider/>
+        <TheEnd/>
     </div>
   );
 }
