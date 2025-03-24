@@ -14,6 +14,7 @@ function TheEnd() {
 
   return (
     <div
+      id="contact"
       className="graystick"
       style={{
         width: '100%', // Full screen width

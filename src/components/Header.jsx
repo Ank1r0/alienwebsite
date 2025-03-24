@@ -24,7 +24,7 @@ function Header() {
           gap: '0px'  // Controls the space between elements
         }}>
           <h1 className="mainText" style={{ fontSize: '160px' }}>ALIEN_SEEK3R</h1>
-          <Link to="main" className="NavLink" style={{ marginTop: '-50px', position: 'relative' ,zIndex: 1, height: '100px', width: '140px', left: '450px'}}>
+          <Link to="contact"className="NavLink" style={{ marginTop: '-50px', position: 'relative' ,zIndex: 1, height: '100px', width: '140px', left: '450px'}}>
             <img 
               src={SmearOfPaintContacts} 
               alt="SmearOfPaint" 
