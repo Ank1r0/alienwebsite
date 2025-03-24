@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alienwebsite/static/css/main.31f7c526.css",
+    "main.js": "/alienwebsite/static/js/main.2801e572.js",
+    "static/media/skillsBack.png": "/alienwebsite/static/media/skillsBack.7fb2a4ffc7ff378536de.png",
+    "static/media/firstpage_monster.png": "/alienwebsite/static/media/firstpage_monster.2a45e1d1851f61f1fb69.png",
+    "static/media/projectBack.png": "/alienwebsite/static/media/projectBack.02ae4ec9ce4d2039ba0c.png",
+    "static/media/SmearOfPaintContacts.png": "/alienwebsite/static/media/SmearOfPaintContacts.06fe5ac41a9aba36f18a.png",
+    "static/media/biographyBackground.png": "/alienwebsite/static/media/biographyBackground.b6ce9f94ea5c9a5be0fc.png",
+    "index.html": "/alienwebsite/index.html",
+    "main.31f7c526.css.map": "/alienwebsite/static/css/main.31f7c526.css.map",
+    "main.2801e572.js.map": "/alienwebsite/static/js/main.2801e572.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f7c526.css",
+    "static/js/main.2801e572.js"
+  ]
+}
